@@ -1,0 +1,110 @@
+.grayBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color: #EEEEEE;
+	display: inline-block;
+}
+.redBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color:  #990000;
+	display: inline-block;
+}
+.redSmallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	background-color: #990000;
+	display: inline-block;
+}
+.redUpBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color: #EEEEEE;
+	display: inline-block;
+}
+.square{
+	width : 50px;
+	height: 50px;
+	padding: 0px;
+	border-style: ridge;
+	background-color: #EEEEEE;
+}
+.yellowBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color:  #FFCC00;
+	display: inline-block;
+}
+.ball{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	display: inline-block;
+}
+.smallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	display: inline-block;
+}
+.yellowSmallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	background-color:  #FFCC00;
+	display: inline-block;	
+}
+.blueBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color:  #003366;
+	display: inline-block;
+}
+.blueSmallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	background-color:  #003366;
+	display: inline-block;	
+}
+.greenBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color:  #003300;
+	display: inline-block;
+}
+.greenSmallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	background-color:  #003300;
+	display: inline-block;	
+}
+
+.purpleBall{
+	width: 30px;
+	height: 30px;
+	border-radius: 90px;
+	background-color:  #660033;
+	display: inline-block;
+}
+.purpleSmallBall{
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 90px;
+	background-color:  #660033;
+	display: inline-block;	
+}

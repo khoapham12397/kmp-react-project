@@ -1,0 +1,33 @@
+.backgroundTile{
+	width: 20px;
+	height: 20px;
+	background-color: #EEEEEE;
+	float: left;
+	border-style: ridge;
+	border-width: 0.01px;
+}
+.blueTile{
+	width: 20px;
+	height: 20px;
+	background-color: #000033;
+	float : left;
+	border-style: ridge;
+	border-width: 0.01px;
+}
+.yellowTile{
+	width: 20px;
+	height: 20px;
+	background-color: #8B6914;
+	float : left;
+	border-style: ridge;
+	border-width: 0.01px;
+
+}
+.redTile{
+	width: 20px;
+	height: 20px;
+	background-color: #660000;
+	float : left;
+	border-style: ridge;
+	border-width: 0.01px;
+}

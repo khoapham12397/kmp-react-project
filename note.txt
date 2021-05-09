@@ -1,0 +1,56 @@
+# using lib react-redux = > useStore , useSelector , useDispatch de thuc hien :
+# Provider de xac dinh cai store la cai nao ??
+# if 1 state la 1 cai gi do : vi du neu 1 component co chinh cai state cua rieng no ma no ko he nam trong state cua store thi khi ma no goi den setState -> thuc hien render lai chinh no ???
+# dieu nay la dung do : // tiep theo nua la gi ???
+# minh nen build them vi du : neu ta co 1 cart la 1 object nam trong state cua thang kia ???
+# ngoai ra co nhieu thu co kha nang tac dong den no ???
+# vi du thuc hien cai nay ???
+# hoac la viec minh CartComponent  , CartItem may cai nay co chuc nang gi ???
+# ko le moi lan co 1 action nao do lam change data => can dispatch de dong bo den cai state ?????
+# sau do thi sao ?? neu co the lam nhu vay :
+# thi ta co cai gi ???
+# useSelector de lam gi ??/
+# vi du them nua : khi ma useSelector => 1 cach de get data cua state dung vay :
+# minh chi can set up 1 function ma cai form cua function nay da duoc dinh dang roi :
+
+# sau do co the get ra duoc no , sau do thi sao , minh co them nhan dinh the nay  
+# cai state cua store chi change <=> cai reducer duoc goi va return new_state ??/
+# khi do no kich hoat viec rerender lai toan bo cai app => no sinh lai 1 virtual DOM tree, run algo so sanh 2 virtual dom moi voi cai real dom => thuc hien render cho real dom=> change cai nao can change:
+
+
+# tiep theo: dau tien minh nen xac dinh la thang nao thi thuc su nen dua vao trong cai do : 
+# dung chua ,  gia dinh project co bao AppComponent => sinh ra 1 tap cac sibling component la children cua App => no co the tuong tac da chieu voi nhau => interact among them ntn ???
+# and we have something :
+# ta co nhung cai do be called hook react: 
+# and, neu xem viec build 1 app facebook ban than co the su dung ca websocket ???
+# dung chua co the lam do,  nhung ma hau nhu no thuc hien theo ajax de danh len ma get data thoi dung vay, ta co cai nay : neu 1 thang ma lam viec na 
+# tiep tuc van de the nay neu no la 1 gennerated id => no se co cai gi ???
+# moi 1 thu can duoc build 1 cach chac chan hon:
+
+# tu do co duoc:
+
+# ghi lai nhung gi da xem qua , goi connect o dau ?
+# sau khi goi thi xay ra cai gi , thong thuong thi minh nhan thay cai gi??
+# do la viec tai sao minh khong thuc hien theo kieu kia vao trong cai nay luon???
+# roi sau do thi sao cac van de gi se phat sinh khi thuc hien no ???
+
+# tiep tuc la cai gi , vi du trong dau hien thi ra dieu gi ??
+
+# mapStateToProps => get duoc cai state trong store ra de map vao day :
+# khi do thuc chat minh nen mapping cai thang mapDispatchToProps de lam gi ??? khi nay no se tot hon :
+# vi du nha :khi ma minh thuc hien dieu nay => ta se co 1 cai class cac action vao truoc :
+# roi ok tai sao minh can lam dieu nay:??
+# can xem lai mapDispatchToProps thuc chat can pass vao cai gi ???
+# dieu nay dung vay la 1 function ma co 1 cai dispatch dung :
+# van de duoc sinh ra the nay: dispatch tu dau ma co ????
+
+# dispatch tu dau ma co ta nen biet duoc thi dung hon ???
+# with something else:
+
+# neu gia dinh la gi ??=> co the lam do ma just do it and something else:
+# ta lai co them cai gi??
+
+# nhung ma minh can biet duoc dieu gi ????
+# do la viec khi minh pass cai nay vao roi thi sao ???
+# co phai no chi can xac dinh dua tren provider la co the xac dinh cai dispatch la gi /?
+
