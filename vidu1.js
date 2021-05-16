@@ -40,7 +40,7 @@ MasterCard :- Starting with 51 through 55, length 16 digits.
 Discover :- Starting with 6011, length 16 digits or starting with 5, length 15 digits.
 Diners Club :- Starting with 300 through 305, 36, or 38, length 14 digits.
 JCB :- Starting with 2131 or 1800, length 15 digits or starting with 35, length 16 digits.
-
+/^(?:5[1-5][0-9]{14})$/
 
 */
 
